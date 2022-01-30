@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Student]
+(
+	[Id] INT NOT NULL IDENTITY(1, 1),
+	[Name] NVARCHAR(255),
+
+	CONSTRAINT PK_Student PRIMARY KEY ([Id])
+)
